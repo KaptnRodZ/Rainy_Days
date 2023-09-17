@@ -43,7 +43,7 @@ header nav a {
   color: black;
   font-size: 1.5rem;
 }
-ul {
+.menu-items {
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -129,7 +129,7 @@ main div img {
     flex-direction: column;
   }
 
-  header ul {
+  .menu-items {
     width: 80%;
     flex-direction: column;
     display: none;
