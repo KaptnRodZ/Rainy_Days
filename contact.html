@@ -40,7 +40,29 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <form id="contact_form" action="#">
+        <div class="row">
+          <input id="name" class="input" placeholder="Name" required /><br />
+        </div>
+        <div class="row">
+          <input id="email" class="input" placeholder="email" required /><br />
+          <span id="email_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+          <textarea
+            id="message"
+            class="input"
+            placeholder="Message"
+            rows="7"
+            cols="30"
+          ></textarea
+          ><br />
+        </div>
+
+        <input id="submit_button" type="submit" value="Send email" />
+      </form>
+    </main>
     <footer>
       <div class="social-media-links">
         <h5>Follow us</h5>
