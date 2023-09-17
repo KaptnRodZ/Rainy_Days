@@ -16,6 +16,7 @@ form div {
   height: 20%;
   justify-content: space-around;
   padding: 0;
+  margin-bottom: 10px;
 }
 form div input {
   padding: 6px 2rem;
@@ -33,4 +34,9 @@ button {
   border-radius: 5px;
   font-size: 1rem;
   padding: 0.5rem;
+}
+@media (max-width: 750px) {
+  button {
+    margin-top: auto;
+  }
 }
