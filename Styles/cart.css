@@ -40,8 +40,15 @@ table td {
 
 main img {
   display: flex;
-  width: 25%;
-  height: 40%;
   border-radius: 15px;
   align-items: center;
+  object-fit: contain;
+  width: 400px;
+}
+
+@media (max-width: 750px) {
+  main div img {
+    object-fit: cover;
+    width: 50%;
+  }
 }
