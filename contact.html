@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="descripton"
-      content="This is home page for rainy days, extreme cool jackets"
+      content="This is contact form page for rainy days, extreme cool jackets"
     />
     <link rel="stylesheet" href="/Styles/login.css" />
     <title>Rainydays|</title>
@@ -41,26 +41,18 @@
       </nav>
     </header>
     <main>
-      <form id="contact_form" action="#">
-        <div class="row">
-          <input id="name" class="input" placeholder="Name" required /><br />
+      <form action="login">
+        <div>
+          <input type="email" name="email" placeholder="email" required />
+          <input
+            type="password"
+            name="pasword"
+            placeholder="password"
+            required
+          />
         </div>
-        <div class="row">
-          <input id="email" class="input" placeholder="email" required /><br />
-          <span id="email_validation" class="error_message"></span>
-        </div>
-        <div class="row">
-          <textarea
-            id="message"
-            class="input"
-            placeholder="Message"
-            rows="7"
-            cols="30"
-          ></textarea
-          ><br />
-        </div>
-
-        <input id="submit_button" type="submit" value="Send email" />
+        <button type="submit" href>login</button>
+        <a href="create.html">Or create an account</a>
       </form>
     </main>
     <footer>
